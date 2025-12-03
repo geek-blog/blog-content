@@ -1,0 +1,19 @@
+{
+  "name": "blog-demo",
+  "version": "1.0.0",
+  "description": "Demo blog application powered by blog-engine",
+  "type": "module",
+  "scripts": {
+    "init": "blog-engine init",
+    "process": "blog-engine process",
+    "dev": "blog-engine dev",
+    "build": "blog-engine build",
+    "preview": "blog-engine preview"
+  },
+  "keywords": ["blog", "demo", "markdown"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blog-engine": "file:.yalc/blog-engine"
+  }
+}
